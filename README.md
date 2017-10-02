@@ -75,6 +75,7 @@ Response example:
 
 ### Trade-offs discussion and future Todos
 - Security wise, only Heroku default SSL is enabled. Reason being this application does not do much sensitive data transmission or authentication. 
+- More elaborated commit messages to facilitate collaboration
 - Better test coverage is required
 - Use centralized caching for scalability
 - Add monitoring, logging for production
