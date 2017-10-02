@@ -36,7 +36,6 @@ router.get("/movie", function(req, res) {
 
         // execute find coordinates for all locations
         Promise.all(promises).then(()=>{
-          // console.log(locations);
           res.status(200).send(locations);
         }).catch((err)=>{
           console.error("Error", err.response.data);
