@@ -25,8 +25,7 @@ Client Side Source: [HERE](https://github.com/fionactc/sf-movies-client)
 │   └── socrata.js // module for Socrata Database (SF movies data)
 └── tests 
     ├── geoCoder.spec.js
-    ├── movie.spec.js
-    └── test-setup.spec.js
+    └── movie.spec.js
 ```
 
 ### API Endpoints
