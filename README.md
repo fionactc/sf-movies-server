@@ -1,4 +1,4 @@
-## Aftership Code Challenge - Movies in San Francisco (Server)
+## Aftership Code Challenge Backend Track - Movies in San Francisco (Server)
 This is a web application that let users search and see where movies have been filmed in San Francisco. This is the server side code repo.
 
 Live Demo: [HERE](https://evening-ocean-41110.herokuapp.com/)
@@ -6,7 +6,7 @@ Live Demo: [HERE](https://evening-ocean-41110.herokuapp.com/)
 Client Side Source: [HERE](https://github.com/fionactc/sf-movies-client)
 
 ### Technical Choices
-- Node.js: Javascript on server side
+- Node.js: Javascript on server side. I have around 1 year experience with Node.js
 - Express: Web framework for Node
 - axios: promise-based HTTP requests
 - memory-cache: caching incoming data. as only one instance is using this cache, in-memory cache is chosen over centralized cache for its speed and simplicity.
