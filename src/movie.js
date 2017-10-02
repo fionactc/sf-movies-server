@@ -10,7 +10,8 @@ router.get("/titles", function(req, res) {
     socrata.getTitles(searchTerm).then((result)=>{
       res.status(200).send(result.data);
     })
-      .catch((err)=>{
+    .catch((err)=>{
+      console.error("Error", err.response.data);
       res.status(500).send("500: Server encountered error");
     });
   } else {
